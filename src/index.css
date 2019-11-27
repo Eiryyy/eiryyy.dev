@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400, 700");
 article,
 aside,
 details,
@@ -70,7 +70,7 @@ pre {
   word-wrap: break-word;
 }
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 small {
   font-size: 80%;
@@ -158,11 +158,11 @@ table {
   border-spacing: 0;
 }
 html {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 pre,
 code {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: "Inconsolata", sans-serif;
 }
 h1,
 h2,
@@ -170,21 +170,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: "Inconsolata", sans-serif;
   font-weight: 700;
-}
-html {
-  background-color: #073642;
-  color: #839496;
-  padding: 1em;
-  height: 100%;
-  box-sizing: border-box;
 }
 body {
   background-color: #002b36;
+  color: #839496;
   margin: 0 auto;
   max-width: 960px;
-  border: 1pt solid #586e75;
   padding: 1em;
   height: 100%;
   box-sizing: border-box;
